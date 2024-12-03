@@ -1,4 +1,4 @@
-### User Management API  
+### Streamlining User Management API  
 
 #### Resolved Issues  
 
