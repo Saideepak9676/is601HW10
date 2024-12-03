@@ -69,7 +69,7 @@
 - **DockerHub Repository:** Successfully built and deployed the Docker image to Docker Hub.  
 - **Improved CI/CD Workflow:** Configured GitHub Actions to automate building, testing, and publishing the image to Docker Hub.
 
-![image](https://hub.docker.com/repository/docker/saideepak9676/is601hw10/general)
+![image](https://github.com/Saideepak9676/is601HW10/blob/15-create-and-upload-the-image-to-docker-hub/dockerimage(1).jpg)
 
 ---
 
