@@ -10,33 +10,33 @@
 **Issue 2: User ID Validation**  
 - The `test_user_response_valid` pytest failed because the `UserResponse` schema expects a UUID for the `id` field, while the `conftest.py` fixture supplied a non-UUID value.  
 - Modified the `id` field in the `conftest.py` fixture to generate valid UUIDs, resolving the validation error and ensuring alignment with the schema requirements.
-[Link](https://github.com/Saideepak9676/is601HW10/issues/3)
+- [Link](https://github.com/Saideepak9676/is601HW10/issues/3)
 
 **Issue 3: Login Request Validation Error**  
 - The `test_login_request_valid` test raised a validation error as the `LoginRequest` model required an `email` field that was missing from the fixture.  
-- Updated the `login_request_data` fixture to include the `email` field, ensuring compatibility with the API's requirements and passing tests.  
-[Link](https://github.com/Saideepak9676/is601HW10/issues/3)
+- Updated the `login_request_data` fixture to include the `email` field, ensuring compatibility with the API's requirements and passing tests.
+- [Link](https://github.com/Saideepak9676/is601HW10/issues/3)
 
 **Issue 4: SMTP Connection Failure**  
 - Tests were failing due to an inability to connect to the SMTP server, stemming from an incomplete configuration of Mailtrap in the project.  
-- Resolved the issue by properly configuring Mailtrap and adding an account to facilitate email-related testing.  
-[Link](https://github.com/Saideepak9676/is601HW10/issues/7)
+- Resolved the issue by properly configuring Mailtrap and adding an account to facilitate email-related testing.
+- [Link](https://github.com/Saideepak9676/is601HW10/issues/7)
 
 **Issue 5: Password Validation**  
 - Implemented password validation rules to enhance security. The new rules require:  
   - A minimum password length.  
   - At least one special character.  
   - At least one uppercase letter.  
-- Added tests to verify these rules and ensure the proper handling of both valid and invalid passwords, including edge cases.  
-[Link](https://github.com/Saideepak9676/is601HW10/issues/9)
+- Added tests to verify these rules and ensure the proper handling of both valid and invalid passwords, including edge cases.
+- [Link](https://github.com/Saideepak9676/is601HW10/issues/9)
 
 **Issue 6: Email Authentication**  
 - Improved the email field by enforcing validation rules, including checks for:  
   - A valid "@" symbol.  
   - A proper top-level domain (TLD).  
   - General formatting compliance.  
-- Developed comprehensive tests to verify email validation against both common and uncommon edge cases.  
-[Link](https://github.com/Saideepak9676/is601HW10/issues/11)
+- Developed comprehensive tests to verify email validation against both common and uncommon edge cases.
+- [Link](https://github.com/Saideepak9676/is601HW10/issues/11)
 
 **Issue 7: Remove Unnecessary User Files**  
 - Cleaned up several user-related files by addressing issues such as:  
@@ -44,13 +44,13 @@
   - Eliminating unused imports and reorganizing active imports for better readability.  
   - Resolving duplicate field issues in `userListResponse`.  
   - Improving error handling for various edge cases.  
-  - Renaming duplicate test cases to avoid conflicts.  
-[Link](https://github.com/Saideepak9676/is601HW10/issues/13)
+  - Renaming duplicate test cases to avoid conflicts.
+  - [Link](https://github.com/Saideepak9676/is601HW10/issues/13)
 
 **Issue 8: Create and Upload the Image to Docker Hub**  
 - Updated the repository to build a Docker image of the application.  
-- Configured GitHub Actions to build and publish the Docker image to Docker Hub upon successful test completion.  
-[Link](https://github.com/Saideepak9676/is601HW10/issues/15)
+- Configured GitHub Actions to build and publish the Docker image to Docker Hub upon successful test completion.
+- [Link](https://github.com/Saideepak9676/is601HW10/issues/15)
 
 ---
 
