@@ -61,7 +61,7 @@
   - Authentication mechanisms using updated fixtures.  
   - Validation of all API endpoints requiring access tokens.
 
-![image]("C:\Users\gsaid\Downloads\Coverage.jpg")
+![image](https://github.com/Saideepak9676/is601HW10/blob/15-create-and-upload-the-image-to-docker-hub/Coverage.jpg)
 
 ---
 
