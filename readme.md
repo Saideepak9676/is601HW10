@@ -61,7 +61,7 @@
   - Authentication mechanisms using updated fixtures.  
   - Validation of all API endpoints requiring access tokens.
 
-[image]("C:\Users\gsaid\Downloads\Coverage.jpg")
+![image]("C:\Users\gsaid\Downloads\Coverage.jpg")
 
 ---
 
@@ -69,7 +69,7 @@
 - **DockerHub Repository:** Successfully built and deployed the Docker image to Docker Hub.  
 - **Improved CI/CD Workflow:** Configured GitHub Actions to automate building, testing, and publishing the image to Docker Hub.
 
-[image]("C:\Users\gsaid\Downloads\Dockerimage.jpg")
+![image](https://hub.docker.com/repository/docker/saideepak9676/is601hw10/general)
 
 ---
 
